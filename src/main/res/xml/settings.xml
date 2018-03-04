@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="learnLanguage"
+        android:title="@string/learnLanguageTitle"
+        android:dialogTitle="@string/learnLanguageTitle"
+        android:entries="@array/LearnLanguage_entries"
+        android:entryValues="@array/LearnLanguage_values"
+        android:defaultValue="@string/learnLanguage_default" />
+</PreferenceScreen>

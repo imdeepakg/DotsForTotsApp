@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#93C572"
+    >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#93C572" >
+        
+<ImageButton
+    android:id="@+id/btnLeft"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:background="#93C572"
+    android:contentDescription="@string/app_name"
+    android:src="@drawable/pre" />
+
+<ImageButton
+    android:id="@+id/btnReload"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:background="#93C572"
+    android:contentDescription="@string/app_name"
+    android:src="@drawable/reload" />
+
+<ImageButton
+    android:id="@+id/btnNext"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:background="#93C572"
+    android:contentDescription="@string/app_name"
+    android:src="@drawable/next" />
+
+</RelativeLayout>
+
+    <view 
+class = "in.co.magmacoin.AlphabetDrawView"
+android:id="@+id/alphabetView"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent" />
+    
+</LinearLayout>
+
+

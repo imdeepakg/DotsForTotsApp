@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ConnectTheDotsActivity!</string>
+    <string name="app_name">Dots For Tots</string>
+    <string name="learnLanguageTitle">Alphabet Language</string>
+    <string name="learnLanguage_default">english</string>
+    
+</resources>
